@@ -1,0 +1,63 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  height: 15vh;
+  background-color: #2dac66;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  background-color: #d8dbdf;
+  height: 120px;
+  width: 100px;
+}
+.title {
+  text-align: center;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.navigation a:hover {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div.home {
+  background-color: #ffff00;
+  width: 360px;
+  margin-top: 150px;
+  margin-left: 50px;
+  padding: 5px 20px;
+}
+
+div.about {
+  background-color: #11ca0b;
+  width: 360px;
+  padding: 5px 20px;
+}
+
+div.works {
+  background-color: #c73fe9;
+  width: 360px;
+  padding: 5px 20px;
+}
+
+div.contacts {
+  background-color: #ff6600;
+  width: 360px;
+  padding: 5px 20px;
+}
