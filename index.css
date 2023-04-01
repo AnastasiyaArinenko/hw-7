@@ -5,58 +5,73 @@
   background-color: #2dac66;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
-.menu {
-  background-color: #d8dbdf;
-  height: 120px;
-  width: 100px;
-}
 .title {
   text-align: center;
   position: relative;
 }
 
 .button {
-  position: absolute;
-  top: 50px;
-  right: 20px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
 }
+
+.modal-wrapper {
+  position: absolute;
+  top: 55px;
+  right: 65px;
+  width: 150px;
+}
+
 
 .navigation {
   list-style-type: none;
+  background-color: #eceef1;
+  /* display: none; */
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
 }
 
 .navigation a:hover {
   color: black;
-  text-align: center;
 }
+
+.modal-wrapper:hover
 
 h2 {
   text-align: center;
 }
 
-div.home {
+.container:nth-child(1) {
+  position: sticky;
+  left: 10px;
   background-color: #ffff00;
   width: 360px;
   margin-top: 150px;
-  margin-left: 50px;
   padding: 5px 20px;
 }
 
-div.about {
+.container:nth-child(2) {
   background-color: #11ca0b;
   width: 360px;
   padding: 5px 20px;
 }
 
-div.works {
+.container:nth-child(3) {
+  position: sticky;
+  left: 300px;
   background-color: #c73fe9;
   width: 360px;
   padding: 5px 20px;
 }
 
-div.contacts {
+.container:nth-child(4) {
+  position: sticky;
+  left: 900px;
   background-color: #ff6600;
   width: 360px;
   padding: 5px 20px;
