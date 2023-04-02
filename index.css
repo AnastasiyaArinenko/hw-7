@@ -14,48 +14,46 @@
 }
 
 .button {
-    position: absolute;
-    top: 50px;
-    right: 20px;
-}
-
-.modal-wrapper {
   position: absolute;
-  top: 55px;
-  right: 65px;
-  width: 150px;
+  top: 50px;
+  right: 40px;
 }
-
 
 .navigation {
+  position: fixed;
+  top: 45px;
+  right: 70px;
   list-style-type: none;
   background-color: #eceef1;
-  /* display: none; */
+  visibility: hidden;
   text-align: center;
   line-height: 1.5;
   padding: 10px;
+  width: 150px;
 }
 
 .navigation a:hover {
   color: black;
 }
 
-.modal-wrapper:hover
+.modal-wrapper:hover .navigation {
+  visibility: visible;
+}
 
 h2 {
   text-align: center;
 }
 
 .container:nth-child(1) {
-  position: sticky;
-  left: 10px;
+  margin-left: 5vw;
   background-color: #ffff00;
   width: 360px;
-  margin-top: 150px;
+  margin-top: 130px;
   padding: 5px 20px;
 }
 
 .container:nth-child(2) {
+  margin-left: 60%;
   background-color: #11ca0b;
   width: 360px;
   padding: 5px 20px;
@@ -70,8 +68,8 @@ h2 {
 }
 
 .container:nth-child(4) {
-  position: sticky;
-  left: 900px;
+  position: absolute;
+  right: 80px;
   background-color: #ff6600;
   width: 360px;
   padding: 5px 20px;
